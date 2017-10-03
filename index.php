@@ -24,9 +24,7 @@
 </head>
 <body class="index-page">
     <?php require_once ('header.php'); ?>
-
-    
-
+   
 	<div class="main">
 
 		<div class="section text-center section-landing">

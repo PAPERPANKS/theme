@@ -176,7 +176,6 @@
 
             <div class="item active">
                 <div class="page-header header-filter" style="background-image: url('https://www.apjanmabhoomi.org/wp-content/uploads/2016/12/digital-class2.jpg');">
-
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 col-md-offset-5 text-right">
@@ -187,9 +186,7 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
 
         </div>
