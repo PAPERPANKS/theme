@@ -22,7 +22,7 @@
 		} */
 	</style>
 </head>
-<body class="signup-page">
+<body style="padding-top:20vh;" class="signup-page">
     <?php require_once ('header.php'); ?>
    
 	<div class="container">

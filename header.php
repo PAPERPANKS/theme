@@ -1,7 +1,7 @@
 <!--default header -->
 
-<div class="header">
-<nav class="navbar navbar-primary navbar-absolute">
+<div >
+<nav class="navbar navbar-primary navbar-fixed-top navbar-color-on-scroll">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
