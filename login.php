@@ -31,18 +31,11 @@
             <div class="col-md-10 col-md-offset-1">
 
                 <div class="card card-signup">
-                    <h2 class="card-title text-center">Register</h2>
+                    <h2 class="card-title text-center">Login</h2>
                     <div class="row">                       
                     <div class="col-md-8 col-md-offset-2"                          
                         <form class="form" method="" action="">
-                            <div class="card-content">
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="material-icons">face</i>
-                                    </span>
-                                    <div class="form-group is-empty"><input class="form-control" placeholder="Name" type="text"><span class="material-input"></span></div>
-                                </div>
-
+                            <div class="card-content">                               
                                 <div class="input-group">
                                     <span class="input-group-addon">
                                         <i class="material-icons">email</i>
@@ -55,18 +48,18 @@
                                         <i class="material-icons">lock_outline</i>
                                     </span>
                                     <div class="form-group is-empty"><input placeholder="Password" class="form-control" type="password"><span class="material-input"></span></div>
-                                </div>
+                                </div>                                                       
 
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="material-icons">lock_outline</i>
-                                    </span>
-                                    <div class="form-group is-empty"><input placeholder="Confirm Password" class="form-control" type="password"><span class="material-input"></span></div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input name="optionsCheckboxes" checked="false" type="checkbox">
+                                        Remember Me
+                                    </label>
                                 </div>
-
                             </div>
                             <div class="footer text-center">
-                                <a href="#" class="btn btn-primary btn-round">Go Ahead</a>
+                                <a href="#" class="btn btn-primary btn-round">Login</a>
+                                <a href="#" class="btn btn-info btn-round">Forgot Password</a>
                             </div>
                         </form>
                     </div>   
