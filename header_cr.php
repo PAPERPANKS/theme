@@ -1,7 +1,7 @@
-<!--default header -->
+<!--header with corousel-->
 
 <div class="header">
-<nav class="navbar navbar-primary ">
+<nav class="navbar navbar-primary navbar-transparent navbar-fixed-top navbar-color-on-scroll">
 <div class="container">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
@@ -126,4 +126,81 @@
     </div>
 </div>
 </nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item">
+                <div class="page-header header-filter" style="background-image: url('https://www.apjanmabhoomi.org/wp-content/uploads/2016/12/video-bg.jpg');">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 text-left">
+                                <h1 class="title">Title 1</h1>
+                                <h4></h4>
+                                <br>
+
+                                <div class="buttons">
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="page-header header-filter" style="background-image: url('https://www.apjanmabhoomi.org/wp-content/uploads/2017/01/digital-class-banner.jpg');">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <h1 class="title">Title 2</h1>
+                                <h4></h4>
+                                <br>                              
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="item active">
+                <div class="page-header header-filter" style="background-image: url('https://www.apjanmabhoomi.org/wp-content/uploads/2016/12/digital-class2.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-md-offset-5 text-right">
+                                <h1 class="title">Title 3</h1>
+                                <h4></h4>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <i class="material-icons">keyboard_arrow_left</i>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <i class="material-icons">keyboard_arrow_right</i>
+        </a>
+    </div>
+</div>
+
 </div>

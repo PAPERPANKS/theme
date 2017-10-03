@@ -23,7 +23,7 @@
 	</style>
 </head>
 <body class="index-page">
-    <?php require_once ('header.php'); ?>
+    <?php require_once ('header_cr.php'); ?>
    
 	<div class="main">
 
