@@ -2111,7 +2111,7 @@ select.form-control {
 }
 
 .navbar.navbar-primary {
-    background-color: #2962ff;
+    background-color: #32ae8b;
     color: #fff;
     box-shadow: 0 4px 20px 0 rgba(0,0,0,.14);
 }
@@ -2130,12 +2130,12 @@ select.form-control {
 
 .navbar.navbar-primary .dropdown-menu li>a:focus,.navbar.navbar-primary .dropdown-menu li>a:hover {
     color: #FFF;
-    background-color: #2962ff;
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgb(51, 51, 204, 0.5);
+    background-color: #32ae8b;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(69, 214, 40, 0.27);
 }
 
 .navbar.navbar-primary .dropdown-menu .active>a {
-    background-color: #2962ff;
+    background-color: #32ae8b;
     color: #fff
 }
 

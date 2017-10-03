@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 	
-	<title>IPU-Home</title>
+	<title>APJanmabhoomi</title>
 
 	<!--     Fonts and icons     -->
 	<link rel="shortcut icon" href="#.ico">
@@ -64,16 +64,16 @@
 			</div>
 		</div><!--cards-->
 
-		<?php require_once ('./#.html'); ?> <!--footer page-->
+		<?php //require_once ('./#.html'); ?> <!--footer page-->
 
 	</div><!--main-raised-->
 
 	<!--   Core JS Files   -->
-	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/material.min.js"></script>
+	<script src="./js/jquery.min.js" type="text/javascript"></script>
+	<script src="./js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="./js/material.min.js"></script>
 	<!--    Control Center for Material Kit: activating the ripples, parallax effects-->
-	<script src="assets/js/material-kit.min.js" type="text/javascript"></script>
+	<script src="./js/material-kit.min.js" type="text/javascript"></script>
 
 	<script type="text/javascript">     
 		// $(document).ready(function(){		
