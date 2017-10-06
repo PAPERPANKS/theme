@@ -17,6 +17,7 @@
 
 </head>
 <body style="padding-top:20vh;" class="index-page">
+
     <?php require_once ('header.php'); ?>
 
 <div class="main main-raised">
@@ -28,38 +29,75 @@
                     <h2 class="title">Gallery</h2>
                 </div>
             </div>
-        </div>
+        </div><!--container-->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3">
-                    <img src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg" alt="">
+                <div class="col-md-4">
+                    <div class="card card-profile">
+                        <div class="card-image">
+                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg">                                                        
+                        </div>
+                        <div class="card-content">                           
+                            <h4 class="card-title">Digital Classroom
+                                <a href="./gallery_1.php" class="btn btn-info btn-round">Open Folder</a>
+                            </h4>                                                                    
+                        </div>
+                    </div>
+	    		</div>               
+                <div class="col-md-4">
+                    <div class="card card-profile">
+                        <div class="card-image">                          
+                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg">                                                         
+                        </div>
+                        <div class="card-content">                           
+                            <h4 class="card-title">Another title
+                                <a href="#" class="btn btn-info btn-round">Open Folder</a>
+                            </h4>                         
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg" alt="">
+                <div class="col-md-4">
+                    <div class="card card-profile">
+                        <div class="card-image">                          
+                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg">                                                         
+                        </div>
+
+                        <div class="card-content">                           
+                            <h4 class="card-title">Aanganwadi
+                                <a href="#" class="btn btn-info btn-round">Open Folder</a>
+                            </h4>                           
+                        </div>
+                    </div>
                 </div>             
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg" alt="">
-                </div>
-            </div>           
-        </div>
-    </div>
+                <div class="col-md-4">
+                    <div class="card card-profile">
+                        <div class="card-image">                           
+                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/gallery/world-environment-day/IMG-20170605-WA0121.jpg">                           
+                        </div>
+
+                        <div class="card-content">
+                            <h4 class="card-title">Crematorium
+                                <a href="#" class="btn btn-info btn-round">Open Folder</a>
+                            </h4> 
+                        </div>
+                    </div>
+                </div>               
+                <div class="col-md-4">
+                    <div class="card card-profile">
+                        <div class="card-image">                           
+                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/gallery/international-yoga-day/IMG-20170621-WA0080.jpg">                           
+                        </div>
+                                                 
+                        <div class="card-content">
+                            <h4 class="card-title">Another title
+                                <a href="#" class="btn btn-info btn-round">Open Folder</a>
+                            </h4> 
+                        </div>                                                  
+                    </div>
+                </div>                             
+            </div><!--row-->           
+        </div><!-- container-fluid-->
+    </div><!--secton-->
     
 </div>
 <!--   Core JS Files   -->
