@@ -16,15 +16,26 @@
 	<link href="./css/material-kit.min.css" rel="stylesheet">
 
 	<style>
+        .main{
+            margin-left:10px !important;
+            margin-right:10px !important;
+        }
 		.card-avatar img{
 			height:147px! important;			
 		} 
+        .card-content{
+            padding-top: 0px !important;
+        }
+        .card-content .category{
+            margin-top: 5px !important;
+            margin-bottom: 5px !important;
+        }
 	</style>
 </head>
 <body style="padding-top:20vh;" class="index-page">
     <?php require_once ('header.php'); ?>
    
-	<div class="main main-raised">
+	<div class="main">
 
         <div id="cards" class="cd-section">
             <div class="cards">
@@ -35,7 +46,7 @@
                     <br/>
                     <div class="row">
                         <!--add col here don't add row just only column--> 
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="card card-profile">
                                 <div class="card-avatar">
                                     <a href="#">
@@ -46,12 +57,7 @@
                                 <div class="card-content">
                                     <h4 class="card-title">Name</h4>
                                     <h6 class="category text-gray">Work</h6>
-                                    <h5 class="category text-gray">College, Location</h5>
-
-                                    <div class="footer">
-                                        <a href="#pablo" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#pablo" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-github"></i></a>
-                                    </div>
+                                    <h5 class="category text-gray">College, Location</h5>                                   
                                 </div>
                             </div>
                         </div>
@@ -64,7 +70,7 @@
                     <br/>
                     <div class="row">
                         <!--add col here don't add row just only column--> 
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="card card-profile">
                                 <div class="card-avatar">
                                     <a href="#">
@@ -76,11 +82,6 @@
                                     <h4 class="card-title">Name</h4>
                                     <h6 class="category text-gray">Work</h6>
                                     <h5 class="category text-gray">College, Location</h5>
-
-                                    <div class="footer">
-                                        <a href="#pablo" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#pablo" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-github"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +94,7 @@
                     <br/>
                     <div class="row">
                         <!--add col here don't add row just only column--> 
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="card card-profile">
                                 <div class="card-avatar">
                                     <a href="#">
@@ -105,11 +106,6 @@
                                     <h4 class="card-title">Name</h4>
                                     <h6 class="category text-gray">Work</h6>
                                     <h5 class="category text-gray">College, Location</h5>
-
-                                    <div class="footer">
-                                        <a href="#pablo" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#pablo" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-github"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +118,7 @@
                     <br/>
                     <div class="row">
                         <!--add col here don't add row just only column--> 
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="card card-profile">
                                 <div class="card-avatar">
                                     <a href="#">
@@ -134,11 +130,6 @@
                                     <h4 class="card-title">Name</h4>
                                     <h6 class="category text-gray">Work</h6>
                                     <h5 class="category text-gray">College, Location</h5>
-
-                                    <div class="footer">
-                                        <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-github"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
