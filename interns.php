@@ -25,6 +25,8 @@
 		} 
         .card-content{
             padding-top: 0px !important;
+            padding-left:5px !important;
+            padding-right:5px !important;
         }
         .card-content .category{
             margin-top: 5px !important;
@@ -44,7 +46,6 @@
         <div id="cards" class="cd-section">
             <div class="cards">
                 <div class="container">
-
                     <div class="row">
                         <div class="title">
                             <h1>Core Team</h1>
@@ -216,7 +217,7 @@
 
 		<?php //require_once ('./#.html'); ?> <!--footer page-->
 
-	</div><!--main-raised-->
+	</div><!--main--->
 
 	<!--   Core JS Files   -->
 	<script src="./js/jquery.min.js" type="text/javascript"></script>
