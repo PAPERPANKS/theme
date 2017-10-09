@@ -30,6 +30,10 @@
             margin-top: 5px !important;
             margin-bottom: 5px !important;
         }
+        .col-md-3{
+            padding-left: 35px;
+            padding-right: 35px;
+        }
 	</style>
 </head>
 <body style="padding-top:20vh;" class="index-page">
@@ -40,102 +44,172 @@
         <div id="cards" class="cd-section">
             <div class="cards">
                 <div class="container">
-                    <div class="title">
-                        <h1>Core Team</h1>
-                    </div>
-                    <br/>
-                    <div class="row">
-                        <!--add col here don't add row just only column--> 
-                        <div class="col-md-3">
-                            <div class="card card-profile">
-                                <div class="card-avatar">
-                                    <a href="#">
-                                        <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/06/K.Arpitha.jpg">
-                                    </a>                              
-                                </div>
 
-                                <div class="card-content">
-                                    <h4 class="card-title">Name</h4>
-                                    <h6 class="category text-gray">Work</h6>
-                                    <h5 class="category text-gray">College, Location</h5>                                   
+                    <div class="row">
+                        <div class="title">
+                            <h1>Core Team</h1>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <!--add col here --> 
+                            <div class="col-md-3">
+                                <div class="card card-profile">
+                                    <div class="card-avatar">
+                                        <a href="#">
+                                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/06/K.Arpitha.jpg">
+                                        </a>                              
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="card-title">Alec Thompson</h4>
+                                        <h6 class="category text-gray">Work</h6>
+                                        <h5 class="category text-gray">College, Location</h5>                                   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card card-profile">
+                                    <div class="card-avatar">
+                                        <a href="#">
+                                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/06/K.Arpitha.jpg">
+                                        </a>                              
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="card-title">Name</h4>
+                                        <h6 class="category text-gray">Work</h6>
+                                        <h5 class="category text-gray">College, Location</h5>                                   
+                                    </div>
+                                </div>
+                            </div>                       
+                            <div class="col-md-3">
+                                <div class="card card-profile">
+                                    <div class="card-avatar">
+                                        <a href="#">
+                                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/06/K.Arpitha.jpg">
+                                        </a>                              
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="card-title">Name</h4>
+                                        <h6 class="category text-gray">Work</h6>
+                                        <h5 class="category text-gray">College, Location</h5>                                   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card card-profile">
+                                    <div class="card-avatar">
+                                        <a href="#">
+                                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/06/K.Arpitha.jpg">
+                                        </a>                              
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="card-title">Name</h4>
+                                        <h6 class="category text-gray">Work</h6>
+                                        <h5 class="category text-gray">College, Location</h5>                                   
+                                    </div>
+                                </div>
+                            </div>                     
+                        </div>
+                        <!--add only a new row if the results is more than 4-->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card card-profile">
+                                    <div class="card-avatar">
+                                        <a href="#">
+                                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/06/K.Arpitha.jpg">
+                                        </a>                              
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="card-title">Alec Thompson</h4>
+                                        <h6 class="category text-gray">Work</h6>
+                                        <h5 class="category text-gray">College, Location</h5>                                   
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                       
                     </div>
 
-                    <div class="title">
-                        <h1>Policy Research Interns</h1>
-                    </div>
-                    <br/>
                     <div class="row">
-                        <!--add col here don't add row just only column--> 
-                        <div class="col-md-3">
-                            <div class="card card-profile">
-                                <div class="card-avatar">
-                                    <a href="#">
-                                        <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/09/Mohit_Choube_IIITDM-Jabalpur_Ghaziabad_UP_Policy-Research-Intern.jpg">
-                                    </a>                              
-                                </div>
+                        <div class="title">
+                            <h1>Policy Research Interns</h1>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <!--add col here don't add row just only column--> 
+                            <div class="col-md-3">
+                                <div class="card card-profile">
+                                    <div class="card-avatar">
+                                        <a href="#">
+                                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/09/Mohit_Choube_IIITDM-Jabalpur_Ghaziabad_UP_Policy-Research-Intern.jpg">
+                                        </a>                              
+                                    </div>
 
-                                <div class="card-content">
-                                    <h4 class="card-title">Name</h4>
-                                    <h6 class="category text-gray">Work</h6>
-                                    <h5 class="category text-gray">College, Location</h5>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Name</h4>
+                                        <h6 class="category text-gray">Work</h6>
+                                        <h5 class="category text-gray">College, Location</h5>
+                                    </div>
                                 </div>
                             </div>
+                        
                         </div>
-                       
                     </div>
 
-                    <div class="title">
-                        <h1>Main Team</h1>
-                    </div>
-                    <br/>
                     <div class="row">
-                        <!--add col here don't add row just only column--> 
-                        <div class="col-md-3">
-                            <div class="card card-profile">
-                                <div class="card-avatar">
-                                    <a href="#">
-                                        <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/07/Sumit-Dargan-1.jpg">
-                                    </a>                              
-                                </div>
+                        <div class="title">
+                            <h1>Main Team</h1>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <!--add col here don't add row just only column--> 
+                            <div class="col-md-3">
+                                <div class="card card-profile">
+                                    <div class="card-avatar">
+                                        <a href="#">
+                                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/07/Sumit-Dargan-1.jpg">
+                                        </a>                              
+                                    </div>
 
-                                <div class="card-content">
-                                    <h4 class="card-title">Name</h4>
-                                    <h6 class="category text-gray">Work</h6>
-                                    <h5 class="category text-gray">College, Location</h5>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Name</h4>
+                                        <h6 class="category text-gray">Work</h6>
+                                        <h5 class="category text-gray">College, Location</h5>
+                                    </div>
                                 </div>
                             </div>
+                        
                         </div>
-                       
                     </div>
 
-                    <div class="title">
-                        <h1>NRI Interns</h1>
-                    </div>
-                    <br/>
                     <div class="row">
-                        <!--add col here don't add row just only column--> 
-                        <div class="col-md-3">
-                            <div class="card card-profile">
-                                <div class="card-avatar">
-                                    <a href="#">
-                                        <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/08/Minisha-Trivedi.jpg">
-                                    </a>                              
-                                </div>
+                        <div class="title">
+                            <h1>NRI Interns</h1>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <!--add col here don't add row just only column--> 
+                            <div class="col-md-3">
+                                <div class="card card-profile">
+                                    <div class="card-avatar">
+                                        <a href="#">
+                                            <img class="img" src="https://www.apjanmabhoomi.org/wp-content/uploads/2017/08/Minisha-Trivedi.jpg">
+                                        </a>                              
+                                    </div>
 
-                                <div class="card-content">
-                                    <h4 class="card-title">Name</h4>
-                                    <h6 class="category text-gray">Work</h6>
-                                    <h5 class="category text-gray">College, Location</h5>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Name</h4>
+                                        <h6 class="category text-gray">Work</h6>
+                                        <h5 class="category text-gray">College, Location</h5>
+                                    </div>
                                 </div>
                             </div>
+                        
                         </div>
-                       
                     </div>
-
                 </div>
             </div>
         </div>
